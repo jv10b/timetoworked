@@ -1,0 +1,105 @@
+# -- Editores -----------------------------------------
+# vim
+.*.sw[a-z]
+*.un~
+Session.vim
+.netrwhist
+
+# eclipse
+*.pydevproject
+.project
+.metadata
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+.externalToolBuilders/
+*.launch
+.buildpath
+
+# phpstorm
+.idea/
+.php_cs.cache
+
+# textmate
+*.tmproj
+*.tmproject
+tmtags
+
+# sublimetext
+*.sublime-project
+*.sublime-workspace
+
+# netbeans
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+# visual studio code
+.vscode
+
+# -- Sistemas Operativos ------------------------------
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.*
+!.env
+!.gitignore
+!.gitkeep
+*~
+
+# Mac OS X
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+.elasticbeanstalk/
+
+# ENV config
+.env.local
+.env.local.php
+.env.*.local
+
+# APP DIR
+/releases
+/backend/deploy
+/backend/releases
+/backend_legacy/deploy
+/backend/public/bundles
+/backend/var
+/backend/vendor
+/backend_legacy/app/config/parameters.yml
+/backend_legacy/releases
+/backend_legacy/deploy
+/backend_legacy/var
+/backend_legacy/vendor
+/backend_legacy/web/js
+/backend_legacy/web/templates
+/backend_legacy/web/bundles
+/frontend/deploy
+/frontend/releases
+*.phar
+
+#logs
+backend/docker/
+
+#sandbox
+/backend/src/Command/SandboxCommand.php
+/backend_legacy/src/Command/SandboxCommand.php
